@@ -1,27 +1,35 @@
 {
   "name": "scq-ui",
   "version": "1.0.0",
-  "description": "",
+  "description": "<h1 align=\"center\">\r     scq-UI\r </h1>",
   "main": "lib/index.js",
   "module": "es/index.js",
   "files": [
     "es",
     "lib"
   ],
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "release-it": "^15.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "repository": {
-    "type": "git"
+    "type": "git",
+    "url": "git+https://github.com/mageAoe/scq-ui.git"
   },
   "keywords": [
     "scq-ui",
     "vue3组件库"
   ],
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "author": "scq",
   "license": "MIT",
-  "typings": "lib/index.d.ts",
-  "dependencies": {
-    "release-it": "^15.6.0"
-  }
+  "bugs": {
+    "url": "https://github.com/mageAoe/scq-ui/issues"
+  },
+  "homepage": "https://github.com/mageAoe/scq-ui#readme"
 }
