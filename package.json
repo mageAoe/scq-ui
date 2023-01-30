@@ -1,0 +1,27 @@
+{
+  "name": "scq-ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "files": [
+    "es",
+    "lib"
+  ],
+  "repository": {
+    "type": "git"
+  },
+  "keywords": [
+    "scq-ui",
+    "vue3组件库"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "scq",
+  "license": "MIT",
+  "typings": "lib/index.d.ts",
+  "dependencies": {
+    "release-it": "^15.6.0"
+  }
+}
